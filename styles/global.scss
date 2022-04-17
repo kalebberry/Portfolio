@@ -1,2 +1,61 @@
+@use "../styles/util/layout";
+@use "../styles/util/fonts";
+@use "../styles/util/color";
+@use "../styles/util/comp";
 @import "https://unpkg.com/open-props";
 @import "https://unpkg.com/open-props/normalize.min.css";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: min(55rem, 100%);
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+:where(svg):where(:not([width])) {
+    inline-size: var(--size-0);
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+// body,
+// #__next {
+//     height: 100%;
+// }

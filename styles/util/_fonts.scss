@@ -1,0 +1,22 @@
+:root {
+    --size-300: 0.75rem;
+    --size-400: 1rem;
+    --size-500: 1.33rem;
+    --size-600: 1.77rem;
+    --size-700: 2.36rem;
+    --size-800: 3.15rem;
+    --size-900: 4.2rem;
+}
+
+p,
+li {
+    max-width: 60ch;
+}
+
+h1 {
+}
+
+h2,
+h3 {
+    max-width: 25ch;
+}
