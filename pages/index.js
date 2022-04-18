@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faGithubAlt, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faFigma, faGithub, faGithubAlt, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { fa1, faExternalLink, faFolder } from '@fortawesome/free-solid-svg-icons';
 import { faFolderClosed, faHeart } from '@fortawesome/free-regular-svg-icons';
 import Navigation from '../comp/navigation';
@@ -11,8 +11,8 @@ function HomePage() {
 			<header id='about' className='hero '>
 				<div className='container'>
 					<h1>
-						Hello! I'm <span class='accent'> Kaleb</span>, <br /> A front-end developer based in
-						United States.
+						Hello! I'm <span class='accent'> Kaleb</span>, <br /> a Web Designer & Developer Based
+						in United States.
 					</h1>
 					<p>
 						With proven experience in helping companies create a better experience with their brand,
@@ -46,14 +46,14 @@ function HomePage() {
 					</div>
 					<div className='projectGallery'>
 						<div className='projectGallery-item'>
-							<h2>
+							<h3>
 								<span className='accent'>01.</span> Torch.AI
-							</h2>
+							</h3>
 							<p>
 								A public facing website for Torch AI. Created with Next JS, and Contentful. I was
 								able to help design, create and structure the website for the company.
 							</p>
-							<p class='stack'>Next JS SCSS Contentful Vercel</p>
+							<p class='stack'>Next SCSS Figma Contentful Vercel</p>
 							<ul>
 								<li>
 									<a role='icon' href='https://github.com/torch-ai/public-website' target='_blank'>
@@ -69,13 +69,15 @@ function HomePage() {
 						</div>
 
 						<div className='projectGallery-item'>
-							<h2>
+							<h3>
 								<span className='accent'>02.</span> Nyacchii
-							</h2>
+							</h3>
 							<p>
 								A portoflio website for Nyacchii, an professional digital artist and Twitch partner.
+								To help with commission pricing and information.
+								<i> This project is still in development with the client.</i>
 							</p>
-							<p class='stack'>SCSS Next JS Vercel</p>
+							<p class='stack'>SCSS Next Figma Vercel</p>
 							<ul>
 								<li>
 									<a
@@ -87,6 +89,40 @@ function HomePage() {
 								</li>
 								<li>
 									<a role='icon' href='https://project-minami-v2.vercel.app/'>
+										<FontAwesomeIcon icon={faExternalLink} />
+									</a>
+								</li>
+								<li>
+									<a
+										role='icon'
+										href='https://www.figma.com/file/y2pkkI53aZocla9VnAZhZR/Nyacchii-V3-Portfolio?node-id=571%3A143'
+										target='_blank'>
+										<FontAwesomeIcon icon={faFigma} />
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div className='projectGallery-item'>
+							<h3>
+								<span className='accent'>03.</span> Suncast Weather
+							</h3>
+							<p>
+								A single page application, I designed and developed during an interview process that
+								showcases the today, hourly, and daily weather, based on Amazon weather API.
+							</p>
+							<p className='stack'>React Amazon API Figma Vercel</p>
+							<ul>
+								<li>
+									<a
+										role='icon'
+										href='https://github.com/Sorumeiji/weather-casestudy'
+										target='_blank'>
+										<FontAwesomeIcon icon={faGithub} />
+									</a>
+								</li>
+								<li>
+									<a role='icon' href='https://weather-casestudy.vercel.app/'>
 										<FontAwesomeIcon icon={faExternalLink} />
 									</a>
 								</li>
