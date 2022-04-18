@@ -2,11 +2,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faGithubAlt, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { fa1, faExternalLink, faFolder } from '@fortawesome/free-solid-svg-icons';
 import { faFolderClosed, faHeart } from '@fortawesome/free-regular-svg-icons';
+import Navigation from '../comp/navigation';
 
 function HomePage() {
 	return (
 		<>
-			<header className='hero '>
+			<Navigation />
+			<header id='about' className='hero '>
 				<div className='container'>
 					<h1>
 						Hello! I'm <span class='accent'> Kaleb</span>, <br /> A front-end developer based in
@@ -36,7 +38,7 @@ function HomePage() {
 				</div>
 			</header>
 
-			<section className='projects'>
+			<section id='projects' className='projects'>
 				<div className='container'>
 					<div className='projectsTitle'>
 						<h1>Projects & Work.</h1>
@@ -54,12 +56,12 @@ function HomePage() {
 							<p class='stack'>Next JS SCSS Contentful Vercel</p>
 							<ul>
 								<li>
-									<a role='icon' href='#'>
+									<a role='icon' href='https://github.com/torch-ai/public-website' target='_blank'>
 										<FontAwesomeIcon icon={faGithub} />
 									</a>
 								</li>
 								<li>
-									<a role='icon' href='#'>
+									<a role='icon' href='https://torch.ai' target='_blank'>
 										<FontAwesomeIcon icon={faExternalLink} />
 									</a>
 								</li>
@@ -76,12 +78,15 @@ function HomePage() {
 							<p class='stack'>SCSS Next JS Vercel</p>
 							<ul>
 								<li>
-									<a role='icon' href='#'>
+									<a
+										role='icon'
+										href='https://github.com/Sorumeiji/project-minami-v2'
+										target='_blank'>
 										<FontAwesomeIcon icon={faGithub} />
 									</a>
 								</li>
 								<li>
-									<a role='icon' href='#'>
+									<a role='icon' href='https://project-minami-v2.vercel.app/'>
 										<FontAwesomeIcon icon={faExternalLink} />
 									</a>
 								</li>
