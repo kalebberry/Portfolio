@@ -2,8 +2,6 @@
 @use "../styles/util/fonts";
 @use "../styles/util/color";
 @use "../styles/util/comp";
-@import "https://unpkg.com/open-props";
-@import "https://unpkg.com/open-props/normalize.min.css";
 
 *,
 *::before,
@@ -17,7 +15,7 @@
 html,
 body {
     height: 100%;
-    background-color: var(--surface-1);
+    background-color: var(--background);
 }
 body {
     line-height: 1.5;
@@ -45,10 +43,11 @@ h4,
 h5,
 h6 {
     overflow-wrap: break-word;
+    color: var(--text-1);
 }
 
-:where(svg):where(:not([width])) {
-    inline-size: var(--size-0);
+a {
+    text-decoration: none;
 }
 
 #root,

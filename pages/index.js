@@ -11,8 +11,7 @@ function HomePage() {
 			<header id='about' className='hero '>
 				<div className='container'>
 					<h1>
-						Hello! I'm <span class='accent'> Kaleb</span>, <br /> a Web Designer & Developer Based
-						in United States.
+						Hey, What's up? I'm <span class='accent'> Kaleb</span>, I create digital experiences.
 					</h1>
 					<p>
 						With proven experience in helping companies create a better experience with their brand,
@@ -46,14 +45,12 @@ function HomePage() {
 					</div>
 					<div className='projectGallery'>
 						<div className='projectGallery-item'>
-							<h3>
-								<span className='accent'>01.</span> Torch.AI
-							</h3>
+							<h3>Torch.AI</h3>
 							<p>
 								A public facing website for Torch AI. Created with Next JS, and Contentful. I was
 								able to help design, create and structure the website for the company.
 							</p>
-							<p class='stack'>Next SCSS Figma Contentful Vercel</p>
+							<p>Next SCSS Figma Contentful Vercel</p>
 							<ul>
 								<li>
 									<a role='icon' href='https://github.com/torch-ai/public-website' target='_blank'>
@@ -69,9 +66,7 @@ function HomePage() {
 						</div>
 
 						<div className='projectGallery-item'>
-							<h3>
-								<span className='accent'>02.</span> Nyacchii
-							</h3>
+							<h3>Nyacchii</h3>
 							<p>
 								A portoflio website for Nyacchii, an professional digital artist and Twitch partner.
 								To help with commission pricing and information.
@@ -104,9 +99,7 @@ function HomePage() {
 						</div>
 
 						<div className='projectGallery-item'>
-							<h3>
-								<span className='accent'>03.</span> Suncast Weather
-							</h3>
+							<h3>Suncast Weather</h3>
 							<p>
 								A single page application, I designed and developed during an interview process that
 								showcases the today, hourly, and daily weather, based on Amazon weather API.

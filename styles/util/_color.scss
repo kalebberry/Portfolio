@@ -1,5 +1,9 @@
+:root {
+    --background: hsl(207, 14%, 15%);
+    --background2: hsl(206, 13%, 10%);
+    --text-1: #eeeeec;
+}
+
 .accent {
-    background: var(--gradient-4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(242, 90, 100);
 }

@@ -20,13 +20,13 @@ a[role="button"] {
     padding-block: 0.9em;
     padding-inline: 0.9em;
     color: var(--gray-8);
-    background: var(--cyan-5);
+    background: #e16b7b;
     transition: all 0.3s ease-in-out !important;
 }
 
 a[role="button-outline"] {
     display: block;
-    border: 1px solid var(--cyan-5);
+    border: 1px solid #e16b7b;
     border-radius: 0.2em;
     padding-block: 0.8em;
     padding-inline: 0.9em;
@@ -45,15 +45,11 @@ a[role="button-outline"]:hover {
 }
 
 a[role="icon"] {
-    color: var(--cyan-5);
+    color: #e16b7b;
     transition: all 0.3s ease-in-out !important;
 }
 
 a[role="icon"]:hover {
-    color: var(--gray-5);
+    color: #e16b7b;
     opacity: 0.8;
-}
-
-.resume {
-    color: var(--cyan-9);
 }
