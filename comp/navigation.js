@@ -45,10 +45,10 @@ const Navigation = () => {
 					ref={navRef}
 					className={`${Nav.primary_navigation}`}>
 					<li>
-						<a href='#about'>About</a>
+						<a href='https://www.kalebberry.com/#about'>About</a>
 					</li>
 					<li>
-						<a href='#projects'>Work</a>
+						<a href='https://www.kalebberry.com/#work'>Work</a>
 					</li>
 					<li>
 						<a className='resume' href='/KalebBerry_Resume.pdf' target='_blank'>

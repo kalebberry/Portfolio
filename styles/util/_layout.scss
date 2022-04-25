@@ -45,7 +45,17 @@
         color: black;
         border-radius: 0.1em;
         padding-inline: 2em;
-        padding-block: 1em;
+        padding-block: 3em;
+    }
+
+    .projectGallery-item a {
+        transition: all 0.3s ease-in-out !important;
+        color: rgb(242, 90, 100);
+    }
+
+    .projectGallery-item a:hover {
+        border-bottom: 1px solid hsl(352, 66%, 65%);
+        padding-bottom: 0.2em;
     }
 }
 
