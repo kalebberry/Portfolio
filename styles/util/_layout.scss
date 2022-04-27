@@ -1,3 +1,14 @@
+header {
+    // border: 1px solid red;
+}
+
+.hero {
+    background-image: url(../../img/circle.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
 .container {
     max-width: 90%;
     width: 900px;
@@ -13,13 +24,18 @@
     }
 }
 
-.navigation-container {
-    max-width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-block: 2em;
-    margin-inline: auto;
+.navigation {
+    max-width: 100%;
+    // border: 1px solid green;
+
+    .navContainer {
+        max-width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-block: 2em;
+        margin-inline: auto;
+    }
 }
 
 .flow > * + * {

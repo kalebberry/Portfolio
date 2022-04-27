@@ -25,39 +25,51 @@ const Navigation = () => {
 		}
 	}
 	return (
-		<div className='navigation-container'>
-			<div className='logo'>
-				<h3 className='accent'>KB</h3>
+		<section className='navigation'>
+			<div className='navContainer'>
+				<div className='logo'>
+					<h3 className='accent'>KB</h3>
+				</div>
+
+				<button
+					className={`${Nav.mobile_nav_toggle}`}
+					aria-controls='primary_navigation'
+					ref={buttonRef}
+					aria-expanded='false'>
+					<span className={`${Nav.sr_only}`}>menu</span>
+				</button>
+
+				<nav>
+					<ul
+						id='primary_navigation'
+						data-visible='false'
+						ref={navRef}
+						className={`${Nav.primary_navigation}`}>
+						<li>
+							<Link href='/'>
+								<a>Home</a>
+							</Link>
+						</li>
+
+						<li>
+							<Link href='/#about'>
+								<a>About</a>
+							</Link>
+						</li>
+						<li>
+							<Link href='/#projects'>
+								<a>Work</a>
+							</Link>
+						</li>
+						<li>
+							<a className='resume' href='/KalebBerry_Resume.pdf' target='_blank'>
+								Resume
+							</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
-
-			<button
-				className={`${Nav.mobile_nav_toggle}`}
-				aria-controls='primary_navigation'
-				ref={buttonRef}
-				aria-expanded='false'>
-				<span className={`${Nav.sr_only}`}>menu</span>
-			</button>
-
-			<nav>
-				<ul
-					id='primary_navigation'
-					data-visible='false'
-					ref={navRef}
-					className={`${Nav.primary_navigation}`}>
-					<li>
-						<a href='https://www.kalebberry.com/#about'>About</a>
-					</li>
-					<li>
-						<a href='https://www.kalebberry.com/#work'>Work</a>
-					</li>
-					<li>
-						<a className='resume' href='/KalebBerry_Resume.pdf' target='_blank'>
-							Resume
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
+		</section>
 	);
 };
 
