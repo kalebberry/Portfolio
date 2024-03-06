@@ -1,0 +1,42 @@
+@use "../abstracts" as *;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.1;
+  max-width: $header-max-text-width;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+p,
+li {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.text-step-6 {
+  font-size: $text-step-6;
+}
+
+h1 {
+  font-size: $header-text-size-1;
+}
+
+h2 {
+  font-size: $header-text-size-2;
+}
+
+h3 {
+  font-size: $header-text-size-3;
+}
+
+h4 {
+  font-size: $header-text-size-4;
+}
+
+h5 {
+  font-size: $header-text-size-5;
+}

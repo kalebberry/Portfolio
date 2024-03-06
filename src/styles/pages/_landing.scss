@@ -1,0 +1,176 @@
+@use "../abstracts" as *;
+
+.landing {
+    .hero {
+        background: url("https://ik.imagekit.io/sorudev/Studio%20Eien/Backgrounds/magazine_cover_manga_3_0dGemsLN_.png?updatedAt=1708435689994")
+            no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+
+        &::before {
+            content: "";
+            z-index: 0;
+            opacity: 0.9;
+            position: absolute;
+            inset: 0;
+            --opacity: 1;
+            background-color: rgb(24 24 27 / var(--opacity));
+        }
+
+        .container {
+            z-index: 999;
+            position: relative;
+        }
+
+        h1,
+        p {
+            color: hsl(200, 7%, 92%);
+        }
+
+        &-summary {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .ctas {
+                align-self: flex-end;
+            }
+
+            .definition p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .process {
+        --opacity: 1;
+        background-color: rgb(24 24 27 / var(--opacity));
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            color: hsl(320, 43%, 99%);
+        }
+        h3,
+        p {
+            color: hsl(320, 43%, 99%);
+        }
+
+        .process__content {
+            --min: 50ch;
+            display: flex;
+            flex-wrap: wrap;
+            gap: $space-size-32;
+
+            & > * {
+                flex: 1 1 var(--min);
+            }
+        }
+    }
+
+    .services {
+        background-color: hsl(200, 7%, 92%);
+        &__content {
+            display: flex;
+            justify-content: space-between;
+
+            .services__content-decor {
+                display: none;
+
+                @media screen and (min-width: breakpoint(large)) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .decor__logo {
+                        margin-block-start: 2rem;
+                    }
+
+                    .decor__number {
+                        display: none;
+                    }
+
+                    @media screen and (min-width: breakpoint(x-large)) {
+                        .decor__number {
+                            display: block;
+
+                            h2 {
+                                position: relative;
+                                max-width: 100%;
+                            }
+
+                            h2:after {
+                                content: "";
+                                height: 1px;
+                                width: 3em;
+                                max-width: 100%;
+                                background: black;
+                                display: block;
+                                position: absolute;
+                                top: 50%;
+                                left: 1.5em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .case-studies {
+        background-color: hsl(200, 7%, 92%);
+        position: relative;
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content__summary {
+            padding-block-end: 3rem;
+        }
+
+        video {
+            border-radius: 0.3em;
+            width: 640px;
+        }
+    }
+
+    .conculsion {
+        --opacity: 1;
+        background-color: rgb(24 24 27 / var(--opacity));
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1,
+        p {
+            color: hsl(320, 43%, 99%);
+        }
+
+        video {
+            border-radius: 0.3em;
+            width: 640px;
+        }
+    }
+}
