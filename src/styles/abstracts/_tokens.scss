@@ -44,17 +44,17 @@ $gap-width-default: $space-size-16;
 $button-border-radius: 0.3em;
 $button-padding-inline: 1.875rem;
 $button-padding-block: 0.688rem;
-$font-text-default: $ff-fira-sans;
-$font-text-header: $ff-pt-serif;
-$font-text-weight-default: 300;
-$font-text-weight-header: 400;
+$font-text-default: $ff-gambetta-reg;
+$font-text-header: $ff-general-sans;
+$font-text-weight-default: 400;
+$font-text-weight-header: 600;
 
 $font-text-width-default: 60ch;
 
-$body-font-family: $ff-fira-sans;
-$body-font-size: $font-size-step-0;
+$body-font-family: $ff-gambetta-reg;
+$body-font-size: $font-size-step-1;
 $body-line-height: 1.7;
-$body-font-weight: $font-fira-sans-light;
+$body-font-weight: 400;
 
 $text-step-6: $font-size-step-6;
 $header-text-size-1: $font-size-step-5;

@@ -53,9 +53,28 @@ a[type="button-outline-white"] {
   border-radius: $button-border-radius;
   transition: opacity 0.3s ease-in;
   outline: none;
-  border: 1px solid hsl(320, 43%, 99%);
+  border: 1px solid var(--border-color, hsl(320, 43%, 99%));
   background: transparent;
-  color: hsl(320, 43%, 99%);
+  color: var(--color, hsl(320, 43%, 99%));
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+a[type="button-outline-dark"] {
+  padding-block: 0.98rem;
+  padding-inline: $button-padding-inline;
+  border-radius: $button-border-radius;
+  transition: opacity 0.3s ease-in;
+  outline: none;
+  border: 1px solid var(--border-color, hsl(240, 6%, 20%));
+  background: transparent;
+  color: var(--color, hsl(240, 6%, 20%));
+  font-family: $ff-general-sans;
+  text-transform: uppercase;
+  font-size: 1.2rem;
 
   &:hover {
     opacity: 0.8;

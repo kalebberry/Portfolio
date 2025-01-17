@@ -1,0 +1,336 @@
+/**
+* @license
+*
+* Font Family: General Sans
+* Designed by: Frode Helland
+* URL: https://www.fontshare.com/fonts/general-sans
+* © 2025 Indian Type Foundry
+*
+* Font Family: Gambetta
+* Designed by: Paul Troppmar
+* URL: https://www.fontshare.com/fonts/gambetta
+* © 2025 Indian Type Foundry
+*
+* General Sans Extralight 
+* General Sans ExtralightItalic 
+* General Sans Light 
+* General Sans LightItalic 
+* General Sans Regular 
+* General Sans Italic 
+* General Sans Medium 
+* General Sans MediumItalic 
+* General Sans Semibold 
+* General Sans SemiboldItalic 
+* General Sans Bold 
+* General Sans BoldItalic 
+* General Sans Variable (Variable font)
+* General Sans VariableItalic (Variable font)
+
+* Gambetta Light 
+* Gambetta LightItalic 
+* Gambetta Regular 
+* Gambetta Italic 
+* Gambetta Medium 
+* Gambetta MediumItalic 
+* Gambetta Semibold 
+* Gambetta SemiboldItalic 
+* Gambetta Bold 
+* Gambetta BoldItalic 
+* Gambetta Variable (Variable font)
+* Gambetta VariableItalic (Variable font)
+*
+*/
+
+@font-face {
+    font-family: "GeneralSans-Extralight";
+    src:
+        url("../fonts/GeneralSans-Extralight.woff2") format("woff2"),
+        url("../fonts/GeneralSans-Extralight.woff") format("woff"),
+        url("../fonts/GeneralSans-Extralight.ttf") format("truetype");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GeneralSans-ExtralightItalic";
+    src:
+        url("../fonts/GeneralSans-ExtralightItalic.woff2") format("woff2"),
+        url("../fonts/GeneralSans-ExtralightItalic.woff") format("woff"),
+        url("../fonts/GeneralSans-ExtralightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "GeneralSans-Light";
+    src:
+        url("../fonts/GeneralSans-Light.woff2") format("woff2"),
+        url("../fonts/GeneralSans-Light.woff") format("woff"),
+        url("../fonts/GeneralSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GeneralSans-LightItalic";
+    src:
+        url("../fonts/GeneralSans-LightItalic.woff2") format("woff2"),
+        url("../fonts/GeneralSans-LightItalic.woff") format("woff"),
+        url("../fonts/GeneralSans-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "GeneralSans-Regular";
+    src:
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Regular.woff2") format("woff2"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Regular.woff") format("woff"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GeneralSans-Italic";
+    src:
+        url(".../../../public/assets/fonts/general-sans/GeneralSans-Italic.woff2") format("woff2"),
+        url(".../../../public/assets/fonts/general-sans/GeneralSans-Italic.woff") format("woff"),
+        url(".../../../public/assets/fonts/general-sans/GeneralSans-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "GeneralSans-Medium";
+    src:
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Medium.woff2") format("woff2"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Medium.woff") format("woff"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GeneralSans-MediumItalic";
+    src:
+        url("../../../public/assets/fonts/general-sans/GeneralSans-MediumItalic.woff2") format("woff2"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-MediumItalic.woff") format("woff"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "GeneralSans-Semibold";
+    src:
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Semibold.woff2") format("woff2"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Semibold.woff") format("woff"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GeneralSans-SemiboldItalic";
+    src:
+        url("../../../public/assets/fonts/general-sans/GeneralSans-SemiboldItalic.woff2") format("woff2"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-SemiboldItalic.woff") format("woff"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-SemiboldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "GeneralSans-Bold";
+    src:
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Bold.woff2") format("woff2"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Bold.woff") format("woff"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GeneralSans-BoldItalic";
+    src:
+        url("../../../public/assets/fonts/general-sans/GeneralSans-BoldItalic.woff2") format("woff2"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-BoldItalic.woff") format("woff"),
+        url("../../../public/assets/fonts/general-sans/GeneralSans-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 700.0;
+*
+* available axes:
+'wght' (range from 200.0 to 700.0
+*/
+@font-face {
+    font-family: "GeneralSans-Variable";
+    src:
+        url("../fonts/GeneralSans-Variable.woff2") format("woff2"),
+        url("../fonts/GeneralSans-Variable.woff") format("woff"),
+        url("../fonts/GeneralSans-Variable.ttf") format("truetype");
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 700.0;
+*
+* available axes:
+'wght' (range from 200.0 to 700.0
+*/
+@font-face {
+    font-family: "GeneralSans-VariableItalic";
+    src:
+        url("../fonts/GeneralSans-VariableItalic.woff2") format("woff2"),
+        url("../fonts/GeneralSans-VariableItalic.woff") format("woff"),
+        url("../fonts/GeneralSans-VariableItalic.ttf") format("truetype");
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Gambetta-Light";
+    src:
+        url("../fonts/Gambetta-Light.woff2") format("woff2"),
+        url("../fonts/Gambetta-Light.woff") format("woff"),
+        url("../fonts/Gambetta-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gambetta-LightItalic";
+    src:
+        url("../fonts/Gambetta-LightItalic.woff2") format("woff2"),
+        url("../fonts/Gambetta-LightItalic.woff") format("woff"),
+        url("../fonts/Gambetta-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Gambetta-Regular";
+    src:
+        url("../../../public/assets/fonts/gambetta/Gambetta-Regular.ttf") format("woff2"),
+        url("../../../public/assets/fonts/gambetta/Gambetta-Regular.woff") format("woff"),
+        url("../../../public/assets/fonts/gambetta/Gambetta-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gambetta-Italic";
+    src:
+        url("../fonts/Gambetta-Italic.woff2") format("woff2"),
+        url("../fonts/Gambetta-Italic.woff") format("woff"),
+        url("../fonts/Gambetta-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Gambetta-Medium";
+    src:
+        url("../fonts/Gambetta-Medium.woff2") format("woff2"),
+        url("../fonts/Gambetta-Medium.woff") format("woff"),
+        url("../fonts/Gambetta-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gambetta-MediumItalic";
+    src:
+        url("../fonts/Gambetta-MediumItalic.woff2") format("woff2"),
+        url("../fonts/Gambetta-MediumItalic.woff") format("woff"),
+        url("../fonts/Gambetta-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Gambetta-Semibold";
+    src:
+        url("../fonts/Gambetta-Semibold.woff2") format("woff2"),
+        url("../fonts/Gambetta-Semibold.woff") format("woff"),
+        url("../fonts/Gambetta-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gambetta-SemiboldItalic";
+    src:
+        url("../fonts/Gambetta-SemiboldItalic.woff2") format("woff2"),
+        url("../fonts/Gambetta-SemiboldItalic.woff") format("woff"),
+        url("../fonts/Gambetta-SemiboldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Gambetta-Bold";
+    src:
+        url("../fonts/Gambetta-Bold.woff2") format("woff2"),
+        url("../fonts/Gambetta-Bold.woff") format("woff"),
+        url("../fonts/Gambetta-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gambetta-BoldItalic";
+    src:
+        url("../fonts/Gambetta-BoldItalic.woff2") format("woff2"),
+        url("../fonts/Gambetta-BoldItalic.woff") format("woff"),
+        url("../fonts/Gambetta-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0wght 700.0;
+*
+* available axes:
+'wght' (range from 300.0 to 700.0'wght' (range from 300.0 to 700.0
+*/
+@font-face {
+    font-family: "Gambetta-Variable";
+    src:
+        url("../fonts/Gambetta-Variable.woff2") format("woff2"),
+        url("../fonts/Gambetta-Variable.woff") format("woff"),
+        url("../fonts/Gambetta-Variable.ttf") format("truetype");
+    font-weight: 300 700;
+    font-display: swap;
+    font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0wght 700.0;
+*
+* available axes:
+'wght' (range from 300.0 to 700.0'wght' (range from 300.0 to 700.0
+*/
+@font-face {
+    font-family: "Gambetta-VariableItalic";
+    src:
+        url("../fonts/Gambetta-VariableItalic.woff2") format("woff2"),
+        url("../fonts/Gambetta-VariableItalic.woff") format("woff"),
+        url("../fonts/Gambetta-VariableItalic.ttf") format("truetype");
+    font-weight: 300 700;
+    font-display: swap;
+    font-style: italic;
+}

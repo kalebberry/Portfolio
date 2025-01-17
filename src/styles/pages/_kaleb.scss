@@ -2,44 +2,20 @@
 
 .personal-portfolio {
     .hero {
-        background: url("https://ik.imagekit.io/sorudev/Studio%20Eien/Backgrounds/magazine_cover_manga_7_t_qgqY_Em.png?updatedAt=1709008986039")
-            no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        position: relative;
-
-        &::before {
-            content: "";
-            z-index: 0;
-            opacity: 0.9;
-            position: absolute;
-            inset: 0;
-            --opacity: 1;
-            background-color: rgb(24 24 27 / var(--opacity));
-        }
-
-        .container {
-            z-index: 999;
-            position: relative;
+        h1 {
+            font-size: $font-size-step-6;
         }
 
         h1,
         p {
-            color: hsl(200, 7%, 92%);
+            color: hsl(250, 6%, 19%);
         }
 
-        .hero-content {
-            .header {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-
-            video {
-                width: auto;
-                border-radius: 0.3em;
+        .header {
+            .content {
+                max-width: fit-content;
+                margin-inline: auto;
+                text-align: center;
             }
         }
 
@@ -54,14 +30,11 @@
     }
 
     .experience {
-        --opacity: 1;
-        background-color: rgb(24 24 27 / var(--opacity));
-
         h1,
         h3,
         h4,
         p {
-            color: hsl(200, 7%, 92%);
+            color: hsl(60, 100%, 95%);
         }
 
         header {
@@ -73,10 +46,10 @@
             display: flex;
 
             .experience-card {
-                --min: 40ch;
-                border: 1px solid;
+                --min: 35ch;
                 border-radius: 0.5em;
-                border-color: rgb(48 48 54 / 1);
+                color: hsl(60, 100%, 95%);
+                background-color: hsl(250, 6%, 19%);
                 padding: 1em;
             }
         }
@@ -94,11 +67,8 @@
     }
 
     .work {
-        --opacity: 1;
-        background-color: rgb(24 24 27 / var(--opacity));
-
         h1 {
-            color: hsl(200, 7%, 92%);
+            color: hsl(240, 6%, 20%);
         }
 
         .work__item {
@@ -111,7 +81,7 @@
 
             h2,
             p {
-                color: hsl(200, 7%, 92%);
+                color: hsl(240, 6%, 20%);
             }
 
             img {
@@ -121,6 +91,7 @@
             }
 
             video {
+                border: 1px solid hsla(240, 6%, 20%, 0.069);
                 width: 640px;
                 border-radius: 0.3em;
             }

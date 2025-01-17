@@ -14,17 +14,21 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: $font-text-weight-header;
-  font-family: $font-text-header;
+  font-family: "GeneralSans-Semibold";
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
 }
 
 p {
   font-size: $body-font-size;
-  font-weight: $body-font-weight;
-  font-family: $font-text-default;
+  font-family: "Gambetta-Regular";
+  font-weight: 400;
   color: $body-text-color;
   text-wrap: balance;
   max-width: $font-text-width-default;
+  font-display: swap;
+  font-style: normal;
 }
 
 a {
