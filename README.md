@@ -1,6 +1,9 @@
 # Personal Portfolio
 
-A Personal Portfolio for my personal development, and more. - [ https://www.kalebberry.com/ ]
+A Personal Portfolio for my personal development, and more. 
+
+Website linke: https://www.kalebberry.com/
+Project Link: https://roadmap.sh/projects/portfolio-website
 
 ## Getting Started
 
